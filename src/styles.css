@@ -1,0 +1,234 @@
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-container {
+  padding: 14%;
+  text-align: right;
+}
+button {
+  background-color: rgb(139, 115, 245);
+  border: solid 1px;
+  color: #fff;
+}
+.icons-container {
+  padding: 10%;
+  text-align: right;
+}
+ul {
+  text-align: center;
+  list-style: none;
+}
+li {
+  display: inline;
+  margin: 0 4%;
+}
+.category-container {
+  padding: 2% 0% 0% 0%;
+  text-align: center;
+}
+.signup-container {
+  padding: 2% 0% 2% 0%;
+  background-color: #eaf6f6;
+}
+#signup-free {
+  text-align: right;
+}
+#btn btn-primary:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+#form-container {
+  text-align: right;
+}
+#category-description {
+  display: block;
+  margin: auto;
+  font-size: 140%;
+  text-align: center;
+  background-color: #8fd6b4;
+  width: 23%;
+  font-weight: bold;
+  padding: 1% 0% 1% 0%;
+}
+#category-description:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+.select-container {
+  text-align: left;
+}
+.filter-featured {
+  display: block;
+  padding: 3% 0% 0% 0%;
+}
+#featured {
+  color: #000;
+  font-size: 230%;
+  text-decoration: none;
+}
+.featured-content {
+  background-color: #eaf6f6;
+  padding: 2% 3% 2% 3%;
+}
+#recipes-selector {
+  text-align: center;
+}
+#featured-heading {
+  text-align: center;
+}
+#content {
+  text-align: center;
+}
+#meal-prep {
+  text-align: center;
+}
+#featured-question {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+#about-link {
+  text-decoration: none;
+  color: #000;
+}
+#recipes-link {
+  text-decoration: none;
+  color: #000;
+}
+#dietary-link {
+  text-decoration: none;
+  color: #000;
+}
+#meal-link {
+  text-decoration: none;
+  color: #000;
+}
+#shop-link {
+  text-decoration: none;
+  color: #000;
+}
+#about-link:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #8fd6b4;
+}
+#recipes-link:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #8fd6b4;
+}
+#dietary-link:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #8fd6b4;
+}
+#meal-link:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #8fd6b4;
+}
+#shop-link:hover {
+  text-decoration: none;
+  opacity: 65%;
+  color: #8fd6b4;
+}
+#logo-link:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+.form-example {
+  padding: 1.5%;
+}
+.footer-section {
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+.footer-section:hover {
+  text-decoration: none;
+  color: #8fd6b4;
+}
+#sign-form {
+  text-align: right;
+}
+.footer-menu {
+  text-align: center;
+}
+#button-footer:hover {
+  opacity: 65%;
+}
+#featured-question:hover {
+  opacity: 65%;
+}
+
+/*Images*/
+
+#logo-head {
+  display: relative;
+  width: 60%;
+}
+.icons {
+  width: 35px;
+  padding: 0.5%;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  padding: 0% 0% 2% 0%;
+}
+.image {
+  position: relative;
+}
+.image #headline {
+  position: absolute;
+  top: 20%;
+  bottom: 50%;
+  left: 60%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 350%;
+}
+
+#appetizer-image {
+  width: 100%;
+}
+#salad-image {
+  width: 100%;
+}
+#meal-image {
+  width: 100%;
+}
+#dessert-image {
+  width: 100%;
+}
+#appetizer-image:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+#salad-image:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+#dessert-image:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+#meal-image:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+#icon-link:hover {
+  text-decoration: none;
+  opacity: 65%;
+}
+
+/*videos*/
+.serving-video {
+  width: 100%;
+  padding: 1% 0% 1% 0%;
+}
+.serving-video:hover {
+  text-decoration: none;
+  opacity: 90%;
+}

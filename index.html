@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes Website</title>
+    <link rel="stylesheet" href="src/styles.css" class="css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Homemade+Apple&family=Indie+Flower&family=La+Belle+Aurore&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Script&family=Nanum+Myeongjo&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <section>
+        <div class="head-container">
+          <div class="row">
+            <div class="col-3" id="logo">
+              <a href="" id="logo-link"
+                ><img src="images/logo.png" alt="logo" id="logo-head"
+              /></a>
+            </div>
+            <div class="col-5">
+              <div class="icons-container">
+                <a href="" id="icon-link"
+                  ><img
+                    src="images/pin-icon.png"
+                    alt="pinterest icon"
+                    class="icons"
+                /></a>
+                <a href="" id="icon-link"
+                  ><img
+                    src="images/instagram_icon.png"
+                    alt="instagram icon"
+                    class="icons"
+                /></a>
+                <a href="" id="icon-link">
+                  <img
+                    src="images/facebook_icon.png"
+                    alt="facebook icon"
+                    class="icons"
+                /></a>
+                <a href="" id="icon-link">
+                  <img
+                    src="images/youtube_icon.png"
+                    alt="youtube icon"
+                    class="icons"
+                /></a>
+                <a href="" id="icon-link"
+                  ><img
+                    src="images/twitter_icon.png"
+                    alt="twitter icon"
+                    class="icons"
+                /></a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="search-container">
+                <form>
+                  <div>
+                    <input type="search" id="mySearch" name="q" />
+                    <button style="background-color: #8fd6b4">Search</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <hr />
+        <div class="menu-container">
+          <ul>
+            <a href="" id="about-link"><li id="about">About</li></a>
+            <a href="" id="recipes-link"><li id="recipes">Recipes</li></a>
+            <a href="" id="dietary-link"><li id="dietary">Dietary</li></a>
+            <a href="" id="meal-link"><li id="meal-preps">Meal Preps</li></a>
+            <a href="" id="shop-link"> <li id="shop">Shop</li></a>
+          </ul>
+        </div>
+        <hr />
+      </section>
+
+      <section>
+        <div class="image">
+          <img src="images/main_image.jpg" alt="food" class="main-image" />
+          <h1 id="headline">"Cook smarter,<br />not harder!"</h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="signup-container">
+          <div class="row">
+            <div class="col-6" id="signup-free">
+              Get our
+              <span class="free">free</span>
+              meal-in-5min recipe book!
+            </div>
+            <div class="col-6" id="form-container">
+              <form action="" method="post" class="form-fill">
+                <fieldset>
+                  <input
+                    type="text"
+                    name="user_name"
+                    id="userName"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="email"
+                    name="user_email"
+                    id="userEmail"
+                    placeholder="Email Address"
+                  />
+                  <input
+                    class="btn btn-primary"
+                    id="signin-button"
+                    type="submit"
+                    value="Submit!"
+                    style="background-color: #8fd6b4"
+                    ;
+                  />
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="category-container">
+          <div class="row">
+            <div class="col-3">
+              <img
+                src="images/appetizer.jpg"
+                alt="appetizer-food"
+                id="appetizer-image"
+              />
+            </div>
+            <div class="col-3">
+              <img src="images/salad.jpg" alt="salad-food" id="salad-image" />
+            </div>
+            <div class="col-3">
+              <img src="images/meal.jpg" alt="salmon-food" id="meal-image" />
+            </div>
+            <div class="col-3">
+              <img
+                src="images/dessert.jpg"
+                alt="dessert food"
+                id="dessert-image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="category-dishes">
+          <div class="row">
+            <div class="col-3" id="category-description">Appetizers</div>
+            <div class="col-3" id="category-description">Salads</div>
+            <div class="col-3" id="category-description">Meals</div>
+            <div class="col-3" id="category-description">Desserts</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="filter-featured">
+          <div class="row">
+            <div class="col-3">
+              <div class="filter-container">
+                Filter Recipes:
+                <p>
+                  Check multiple boxes below to narrow recipe search results:
+                </p>
+                <div class="season-container">
+                  <h5>By Season:</h5>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="spring-season" name="scales" />
+                    <label for="scales">Spring</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="summer-season" name="scales" />
+                    <label for="scales">Summer</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="autumn-season" name="scales" />
+                    <label for="scales">Autumn</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="winter-season" name="scales" />
+                    <label for="scales">Winter</label>
+                  </div>
+                </div>
+                <br />
+                <div class="dietary-container">
+                  <h5>By Dietary Preference:</h5>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="dietary-dairyf" name="scales" />
+                    <label for="scales">Dairy Free</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="dietary-eggf" name="scales" />
+                    <label for="scales">Egg Free</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="dietary-Glutenf" name="scales" />
+                    <label for="scales">Gluten Free</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="dietary-healthy" name="scales" />
+                    <label for="scales">Healthy</label>
+                  </div>
+                  <div class="select-container">
+                    <input type="checkbox" id="dietary-quick" name="scales" />
+                    <label for="scales">Quick and Easy</label>
+                  </div>
+                </div>
+                <br />
+                <div class="meal-type-container">
+                  <h5>By Meal:</h5>
+
+                  <div class="select-container">
+                    <input
+                      type="checkbox"
+                      id="dietary-breakfast"
+                      name="scales"
+                    />
+                    <label for="scales">Breakfast</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input
+                      type="checkbox"
+                      id="meal-type-dinner"
+                      name="scales"
+                    />
+                    <label for="scales">Dinner</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input
+                      type="checkbox"
+                      id="meal-type-dessert"
+                      name="scales"
+                    />
+                    <label for="scales">Dessert</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input
+                      type="checkbox"
+                      id="meal-type-snacka"
+                      name="scales"
+                    />
+                    <label for="scales">Snack and Appetizers</label>
+                  </div>
+                  <div class="select-container">
+                    <input
+                      type="checkbox"
+                      id="meal-type-holidays"
+                      name="scales"
+                    />
+                    <label for="scales">Holidays</label>
+                  </div>
+                </div>
+                <br />
+                <div class="sweet-container">
+                  <h5>Sweet Things:</h5>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="sweet-fd" name="scales" />
+                    <label for="scales">Fruit Desserts</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="sweet-c" name="scales" />
+                    <label for="scales">Chocolate</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="sweet-csb" name="scales" />
+                    <label for="scales">Cakes and Sweet Breads</label>
+                  </div>
+
+                  <div class="select-container">
+                    <input type="checkbox" id="sweet-cb" name="scales" />
+                    <label for="scales">Cookies and Bars</label>
+                  </div>
+                  <div class="select-container">
+                    <input type="checkbox" id="sweet-pt" name="scales" />
+                    <label for="scales">Pies and Tarts</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-9">
+              <h3 id="featured">Barbeque Friday!</h3>
+              <a href="" class="viedo-serving"
+                ><video autoplay loop muted plays-inline class="serving-video">
+                  <source
+                    src="videos/serving.mp4"
+                    alt="serving food on a platter"
+                    type="video/mp4"
+                  /></video
+              ></a>
+              <br />
+
+              <div class="featured-content">
+                <p id="recipes-selector">
+                  Recipes > Meals <br /><br />
+                  ⭐⭐⭐⭐⭐
+                </p>
+                <h2 id="featured-heading">The Ultimate Barbeque Meal</h2>
+                <p id="content">
+                  Boneless, skinless chicken breast marinated in the traditional
+                  Greek flavors of lemon, garlic and oregano then threaded on
+                  skewers makes these grilled chicken kebabs an easy and healthy
+                  weeknight dinner winner.
+                </p>
+                <br />
+                <div class="row">
+                  <div class="col-6" id="meal-prep">
+                    <strong>Serves</strong>
+                    <br />
+                    4-6
+                  </div>
+                  <div class="col-6" id="meal-prep">
+                    <strong>Prep</strong>
+                    <br />
+                    40min
+                    <br /><br />
+                  </div>
+                </div>
+              </div>
+              <a href=""><p id="featured-question">Did you try this?</p></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <div class="footer-menu">
+          <div class="row">
+            <div class="col-4" id="footer-menu">
+              <a href="" class="footer-section">About</a>
+              <br /><br />
+              <a href="" class="footer-section">Recipes</a>
+              <br /><br />
+              <a href="" class="footer-section">Dietary</a>
+              <br /><br />
+              <a href="" class="footer-section">Meal Preps</a>
+              <br /><br />
+              <a href="" class="footer-section">Shop</a>
+            </div>
+            <div class="col-4" id="footer-menu">
+              <a href="" class="footer-section">Appetizers</a>
+              <br /><br />
+              <a href="" class="footer-section">Salad </a>
+              <br /><br />
+              <a href="" class="footer-section">Meals</a>
+              <br /><br />
+              <a href="" class="footer-section">Desserts</a>
+            </div>
+            <div class="col-4" id="sign-form">
+              <h4>Sign up for our Newletter</h4>
+              <form action="" method="get" class="form-example">
+                <div class="form-example">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    required
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-example">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                </div>
+                <div class="form-example" id="button-footer">
+                  <input
+                    type="submit"
+                    value="Subscribe!"
+                    style="background-color: #bee7d3; border: 1px solid"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <br />
+      <section>This project was built by Tintswalo and Thanyani</section>
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
